@@ -1,0 +1,242 @@
+body {   
+    background: url('/images/фон.jpg');  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+@media (max-width: 600px) {
+    .block_page_white,
+    .block_page_black {
+        display: inline;
+    }
+}
+.panelnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.panelnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;    
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;    
+}
+.panelnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.con {
+    color: rgb(53, 0, 245);
+}
+.ya {
+    margin-left: 5%;
+    height: 600px;
+    width: 800px;
+}
+.avtorisator a {
+    float: right;
+}
+.главная {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    background-color: rgba(142, 125, 204, 0.4);    
+}
+.кратко {
+    margin: 5%;
+    display: flex;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    flex-direction: column;
+}
+.заголовок {
+    font-size: 4rem;
+    color: #272305; 
+    font-family: ‘Trocchi’, serif;  
+    font-weight: normal; 
+    line-height: 70px; 
+    margin-bottom: 6%;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    border-bottom: 4px solid black;
+    width: 80%;
+}
+.обомне {
+    display: flex;
+    color: #4e4704;
+    font-family: ‘Source Sans Pro’, sans-serif;
+    font-size: 1.3rem;
+    line-height: 32px;
+    margin: 0 0 24px; -webkit-text-stroke: 1px rgb(0, 0, 0);
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+.mylabs {
+    font-size: 45px;
+    color: #f11212;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    25% {
+      opacity: 0;
+    }
+}
+.labs {
+    font-size: 26px;
+    color: #0c0c0c;
+}
+.obomne {   
+    display: flex;
+    color: #d7e60e;
+    margin-top: 4%;
+    flex-direction: column;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    align-items: center;
+    background-color: rgba(142, 125, 204, 0.4);  
+}
+.text1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+.text2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 70%;
+}
+.text3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+}
+.obomne1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: monospace;
+    background-color: rgba(58, 21, 190, 0.4);  
+}
+.obomne2 {
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: monospace;
+    flex-direction: column;
+    background-color: rgba(27, 66, 196, 0.4);  
+}
+.obomne3 {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: monospace;
+    background-color: rgba(58, 21, 190, 0.4);
+}
+.ya1 {
+    height: 600px;
+    width: 700px;
+}
+.niz {
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+    color: #ff0000;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    padding: 25px;
+    float: top;
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    padding: 5px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 4px solid black;
+}
+.icon {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+.tel {
+    color: #e719d6;
+    font-size:40px;
+}
+.boss {
+    margin-left: 7%;
+    height: 400px;
+    width: 400px;
+    background-image: none;   
+}
+.button1 {
+    height: 3vw;
+    width: 3vw;
+    cursor: pointer;
+}
+.main_gallery {
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    justify-content: center;	
+}
+.gallery {
+    margin-top: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elementImage {
+    width: 500px;
+}   
+.button {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+.knopki {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+}
+#mainImage  {
+    width: 500px;
+}
+.gir {
+    font-weight: 700;
+}
+

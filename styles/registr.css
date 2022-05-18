@@ -1,0 +1,245 @@
+body {   
+    background: url('/images/fhone.jpg');  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+@media (max-width: 600px) {
+    .block_page_white,
+    .block_page_black {
+        display: inline;
+    }
+}
+.registr {
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.errortxt {
+    background-color: #3cff00;
+    font-size: 15px;
+}
+.row {
+    display: flex;
+}
+.reg2 {
+    margin-top: 2%;
+    display: flex;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    border-radius: 15%;
+    background-color:  rgb(0, 0, 0, 0.2);  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid ;
+}
+.table {
+    color: #3cff00;
+    padding: 5px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.pol {
+    color: #ff0080;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid#000;
+}
+.pol1 {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid#000;
+}
+.form-control {
+    margin-top: 1%;
+    border: 2px solid blue;
+    background-color: rgb(210, 231, 19, 0.8);
+}
+.file {
+    margin-top: 1%;
+    cursor: pointer;
+    color: #3cff00;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-success {
+    margin-top: 2%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.button1 {
+    height: 3vw;
+    width: 3vw;
+    cursor: pointer;
+}
+.headText {
+    color: brown;
+}
+.username {
+    color: rgb(72, 255, 0);
+}
+.username1 {
+    color: rgb(255, 0, 212);
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.userpage {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    position: absolute;
+}
+.usericon {
+    height: 300px;
+    width: 300px;
+}
+.userimg {
+    height: 500px;
+    width: 500px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-color: rgb(5, 5, 5);
+    padding: 30px;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+.polsovatel {
+    display: flex;
+    margin-left: 2%;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    color: rgb(153, 0, 255);
+}
+a.button12 {
+    position: relative;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: #053852 -1px 1px, #053852 1px 1px, #053852 1px -1px, #053852 -1px -1px;
+    text-decoration: none;
+    user-select: none;
+    padding: .3em .7em;
+    outline: none;
+    border-radius: 7px;
+    background: #053852 repeating-linear-gradient(135deg, #053852, #053852 10px, #1679ad 10px, #1679ad 20px, #053852 20px);
+    box-shadow:
+     inset -2px -2px rgba(0,0,0,.3),
+     inset 2px 2px rgba(255,255,255,.3);
+    transition: background-position 999999s, color 999999s, text-shadow 999999s;
+  }
+  a.button12:hover, a.button12:focus {
+    text-shadow: #0175b1 -1px 1px, #0175b1 1px 1px, #0175b1 1px -1px, #0175b1 -1px -1px;
+    background: #0175b1 repeating-linear-gradient(135deg, #0175b1, #0175b1 10px, #8fd2f5 10px, #8fd2f5 20px, #0175b1 20px) no-repeat;
+    background-size: 1000% 100%;
+  }
+  a.button12:hover {
+    background-position: 0 0;
+  }
+  a.button12:focus {
+    color: rgba(255,255,255,0);
+    text-shadow: rgba(1,117,177,0) -1px 1px, rgba(1,117,177,0) 1px 1px, rgba(1,117,177,0) 1px -1px, rgba(1,117,177,0) -1px -1px;
+    background-position: 900% 0;
+    transition: background-position linear 600s, color .5s, text-shadow .5s;
+  }
+  a.button12:after {
+    content: "загрузка\2026";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .3em .7em;
+    color: rgba(0,0,0,0);
+    text-shadow: none;
+    transition: 999999s;
+  }
+  a.button12:focus:after {
+    color: #fff;
+    text-shadow: #0175b1 -1px 1px, #0175b1 1px 1px, #0175b1 1px -1px, #0175b1 -1px -1px;
+    transition: .5s;
+  }
+
+  a.button25 {
+    position: relative;
+    display: inline-block;
+    width: 10em;
+    height: 2.5em;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #F64C2B;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  }
+  a.button25:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }
+
+  a.button6 {
+    position: relative;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #cc5500;
+    user-select: none;
+    padding: .8em 2em;
+    outline: none;
+    border-radius: 1px;
+    background: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,.0) 50%, rgba(0,0,0,.3)), linear-gradient(#d77d31, #fe8417, #d77d31);
+    background-size: 100% 100%, auto;
+    background-position: 50% 50%;
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+    transition: 0.2s;
+  }
+  a.button6:hover {
+    background-size: 140% 100%, auto;
+  }
+  a.button6:active {
+    top: 1px;
+    color: #ffdead;
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
+  }
+
+.button30 {
+    margin-top: 3%;
+    border-bottom: 1px solid rgb(142, 250, 0);
+    border-top: 1px solid rgb(142, 250, 0);
+    border-right: 1px solid rgb(142, 250, 0);
+    border-left: 1px solid rgb(142, 250, 0);
+    color: #0175b1;
+ }
